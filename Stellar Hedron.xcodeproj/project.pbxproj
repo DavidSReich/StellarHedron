@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631DF31C1BC20A29006EA9DA /* about-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 631DF3181BC20A29006EA9DA /* about-25.png */; };
+		631DF31D1BC20A29006EA9DA /* checkmark-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 631DF3191BC20A29006EA9DA /* checkmark-25.png */; };
+		631DF31E1BC20A29006EA9DA /* plus-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 631DF31A1BC20A29006EA9DA /* plus-25.png */; };
+		631DF31F1BC20A29006EA9DA /* process-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 631DF31B1BC20A29006EA9DA /* process-25.png */; };
+		631DFB3E1BBCBABE00246F45 /* HBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DFB3D1BBCBABE00246F45 /* HBoardView.swift */; };
+		633254A51BBA6C69002ED5BC /* HCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633254A41BBA6C69002ED5BC /* HCellView.swift */; };
+		633348281C1DB45300A6864E /* Cropped for LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 633348271C1DB45300A6864E /* Cropped for LaunchScreen.png */; };
+		6338A9771BBBDFAB0013EED0 /* Pentagons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338A9761BBBDFAB0013EED0 /* Pentagons.swift */; };
+		6341507C1BB6D99600C42653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6341507B1BB6D99600C42653 /* AppDelegate.swift */; };
+		6341507E1BB6D99600C42653 /* HMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6341507D1BB6D99600C42653 /* HMainViewController.swift */; };
+		634150811BB6D99700C42653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6341507F1BB6D99700C42653 /* Main.storyboard */; };
+		634150831BB6D99700C42653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634150821BB6D99700C42653 /* Assets.xcassets */; };
+		634150861BB6D99700C42653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634150841BB6D99700C42653 /* LaunchScreen.storyboard */; };
+		634150911BB6D99700C42653 /* Stellar_HedronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634150901BB6D99700C42653 /* Stellar_HedronTests.swift */; };
+		6341509C1BB6D99700C42653 /* Stellar_HedronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6341509B1BB6D99700C42653 /* Stellar_HedronUITests.swift */; };
+		635C706B1C1973C00027441A /* dreamstime_xl_33509585_rotate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635C706A1C1973C00027441A /* dreamstime_xl_33509585_rotate.jpg */; };
+		638F82C61BDEF0A500CEDCF1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638F82C51BDEF0A400CEDCF1 /* GameKit.framework */; };
+		638F82C91BDF255C00CEDCF1 /* HGameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F82C71BDF235400CEDCF1 /* HGameCenterManager.swift */; };
+		638F82CB1BDF47B500CEDCF1 /* HPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F82CA1BDF47B500CEDCF1 /* HPlayer.swift */; };
+		63BDC47F1BE0D1F700D8F4BE /* HInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BDC47E1BE0D1F700D8F4BE /* HInfoViewController.swift */; };
+		63BDC4811BE0D80600D8F4BE /* HBoundaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BDC4801BE0D80600D8F4BE /* HBoundaryView.swift */; };
+		63C057C51C0ADC0C00D001FB /* StellarSoftware_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C057C41C0ADC0C00D001FB /* StellarSoftware_3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6341508D1BB6D99700C42653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634150701BB6D99600C42653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634150771BB6D99600C42653;
+			remoteInfo = "Stellar Hedron";
+		};
+		634150981BB6D99700C42653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634150701BB6D99600C42653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634150771BB6D99600C42653;
+			remoteInfo = "Stellar Hedron";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631DF3181BC20A29006EA9DA /* about-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-25.png"; sourceTree = "<group>"; };
+		631DF3191BC20A29006EA9DA /* checkmark-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-25.png"; sourceTree = "<group>"; };
+		631DF31A1BC20A29006EA9DA /* plus-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-25.png"; sourceTree = "<group>"; };
+		631DF31B1BC20A29006EA9DA /* process-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "process-25.png"; sourceTree = "<group>"; };
+		631DFB3D1BBCBABE00246F45 /* HBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBoardView.swift; sourceTree = "<group>"; };
+		633254A41BBA6C69002ED5BC /* HCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCellView.swift; sourceTree = "<group>"; };
+		633348271C1DB45300A6864E /* Cropped for LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cropped for LaunchScreen.png"; sourceTree = "<group>"; };
+		6338A9761BBBDFAB0013EED0 /* Pentagons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pentagons.swift; sourceTree = "<group>"; };
+		634150781BB6D99600C42653 /* Stellar Hedron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stellar Hedron.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6341507B1BB6D99600C42653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6341507D1BB6D99600C42653 /* HMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMainViewController.swift; sourceTree = "<group>"; };
+		634150801BB6D99700C42653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634150821BB6D99700C42653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634150851BB6D99700C42653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634150871BB6D99700C42653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6341508C1BB6D99700C42653 /* Stellar HedronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stellar HedronTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634150901BB6D99700C42653 /* Stellar_HedronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stellar_HedronTests.swift; sourceTree = "<group>"; };
+		634150921BB6D99700C42653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634150971BB6D99700C42653 /* Stellar HedronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stellar HedronUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6341509B1BB6D99700C42653 /* Stellar_HedronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stellar_HedronUITests.swift; sourceTree = "<group>"; };
+		6341509D1BB6D99700C42653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635C706A1C1973C00027441A /* dreamstime_xl_33509585_rotate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreamstime_xl_33509585_rotate.jpg; sourceTree = "<group>"; };
+		638F82C51BDEF0A400CEDCF1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		638F82C71BDF235400CEDCF1 /* HGameCenterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGameCenterManager.swift; sourceTree = "<group>"; };
+		638F82CA1BDF47B500CEDCF1 /* HPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPlayer.swift; sourceTree = "<group>"; };
+		63BDC47E1BE0D1F700D8F4BE /* HInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HInfoViewController.swift; sourceTree = "<group>"; };
+		63BDC4801BE0D80600D8F4BE /* HBoundaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBoundaryView.swift; sourceTree = "<group>"; };
+		63C057C41C0ADC0C00D001FB /* StellarSoftware_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StellarSoftware_3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634150751BB6D99600C42653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F82C61BDEF0A500CEDCF1 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634150891BB6D99700C42653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634150941BB6D99700C42653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631DF3171BC20A28006EA9DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				633348271C1DB45300A6864E /* Cropped for LaunchScreen.png */,
+				635C706A1C1973C00027441A /* dreamstime_xl_33509585_rotate.jpg */,
+				63C057C41C0ADC0C00D001FB /* StellarSoftware_3.png */,
+				631DF3181BC20A29006EA9DA /* about-25.png */,
+				631DF3191BC20A29006EA9DA /* checkmark-25.png */,
+				631DF31A1BC20A29006EA9DA /* plus-25.png */,
+				631DF31B1BC20A29006EA9DA /* process-25.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6341506F1BB6D99600C42653 = {
+			isa = PBXGroup;
+			children = (
+				6341507A1BB6D99600C42653 /* Stellar Hedron */,
+				6341508F1BB6D99700C42653 /* Stellar HedronTests */,
+				6341509A1BB6D99700C42653 /* Stellar HedronUITests */,
+				634150791BB6D99600C42653 /* Products */,
+				638F82C51BDEF0A400CEDCF1 /* GameKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		634150791BB6D99600C42653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634150781BB6D99600C42653 /* Stellar Hedron.app */,
+				6341508C1BB6D99700C42653 /* Stellar HedronTests.xctest */,
+				634150971BB6D99700C42653 /* Stellar HedronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6341507A1BB6D99600C42653 /* Stellar Hedron */ = {
+			isa = PBXGroup;
+			children = (
+				631DF3171BC20A28006EA9DA /* Images */,
+				6341507B1BB6D99600C42653 /* AppDelegate.swift */,
+				6341507D1BB6D99600C42653 /* HMainViewController.swift */,
+				631DFB3D1BBCBABE00246F45 /* HBoardView.swift */,
+				63BDC4801BE0D80600D8F4BE /* HBoundaryView.swift */,
+				633254A41BBA6C69002ED5BC /* HCellView.swift */,
+				638F82C71BDF235400CEDCF1 /* HGameCenterManager.swift */,
+				6338A9761BBBDFAB0013EED0 /* Pentagons.swift */,
+				638F82CA1BDF47B500CEDCF1 /* HPlayer.swift */,
+				63BDC47E1BE0D1F700D8F4BE /* HInfoViewController.swift */,
+				6341507F1BB6D99700C42653 /* Main.storyboard */,
+				634150841BB6D99700C42653 /* LaunchScreen.storyboard */,
+				634150821BB6D99700C42653 /* Assets.xcassets */,
+				634150871BB6D99700C42653 /* Info.plist */,
+			);
+			path = "Stellar Hedron";
+			sourceTree = "<group>";
+		};
+		6341508F1BB6D99700C42653 /* Stellar HedronTests */ = {
+			isa = PBXGroup;
+			children = (
+				634150901BB6D99700C42653 /* Stellar_HedronTests.swift */,
+				634150921BB6D99700C42653 /* Info.plist */,
+			);
+			path = "Stellar HedronTests";
+			sourceTree = "<group>";
+		};
+		6341509A1BB6D99700C42653 /* Stellar HedronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6341509B1BB6D99700C42653 /* Stellar_HedronUITests.swift */,
+				6341509D1BB6D99700C42653 /* Info.plist */,
+			);
+			path = "Stellar HedronUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634150771BB6D99600C42653 /* Stellar Hedron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634150A01BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar Hedron" */;
+			buildPhases = (
+				634150741BB6D99600C42653 /* Sources */,
+				634150751BB6D99600C42653 /* Frameworks */,
+				634150761BB6D99600C42653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stellar Hedron";
+			productName = "Stellar Hedron";
+			productReference = 634150781BB6D99600C42653 /* Stellar Hedron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6341508B1BB6D99700C42653 /* Stellar HedronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634150A31BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar HedronTests" */;
+			buildPhases = (
+				634150881BB6D99700C42653 /* Sources */,
+				634150891BB6D99700C42653 /* Frameworks */,
+				6341508A1BB6D99700C42653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6341508E1BB6D99700C42653 /* PBXTargetDependency */,
+			);
+			name = "Stellar HedronTests";
+			productName = "Stellar HedronTests";
+			productReference = 6341508C1BB6D99700C42653 /* Stellar HedronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		634150961BB6D99700C42653 /* Stellar HedronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634150A61BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar HedronUITests" */;
+			buildPhases = (
+				634150931BB6D99700C42653 /* Sources */,
+				634150941BB6D99700C42653 /* Frameworks */,
+				634150951BB6D99700C42653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634150991BB6D99700C42653 /* PBXTargetDependency */,
+			);
+			name = "Stellar HedronUITests";
+			productName = "Stellar HedronUITests";
+			productReference = 634150971BB6D99700C42653 /* Stellar HedronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634150701BB6D99600C42653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stellar Software Pty Ltd";
+				TargetAttributes = {
+					634150771BB6D99600C42653 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					6341508B1BB6D99700C42653 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 634150771BB6D99600C42653;
+					};
+					634150961BB6D99700C42653 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 634150771BB6D99600C42653;
+					};
+				};
+			};
+			buildConfigurationList = 634150731BB6D99600C42653 /* Build configuration list for PBXProject "Stellar Hedron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6341506F1BB6D99600C42653;
+			productRefGroup = 634150791BB6D99600C42653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634150771BB6D99600C42653 /* Stellar Hedron */,
+				6341508B1BB6D99700C42653 /* Stellar HedronTests */,
+				634150961BB6D99700C42653 /* Stellar HedronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634150761BB6D99600C42653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631DF31E1BC20A29006EA9DA /* plus-25.png in Resources */,
+				631DF31F1BC20A29006EA9DA /* process-25.png in Resources */,
+				634150861BB6D99700C42653 /* LaunchScreen.storyboard in Resources */,
+				635C706B1C1973C00027441A /* dreamstime_xl_33509585_rotate.jpg in Resources */,
+				634150831BB6D99700C42653 /* Assets.xcassets in Resources */,
+				63C057C51C0ADC0C00D001FB /* StellarSoftware_3.png in Resources */,
+				631DF31C1BC20A29006EA9DA /* about-25.png in Resources */,
+				634150811BB6D99700C42653 /* Main.storyboard in Resources */,
+				633348281C1DB45300A6864E /* Cropped for LaunchScreen.png in Resources */,
+				631DF31D1BC20A29006EA9DA /* checkmark-25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6341508A1BB6D99700C42653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634150951BB6D99700C42653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634150741BB6D99600C42653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BDC4811BE0D80600D8F4BE /* HBoundaryView.swift in Sources */,
+				6341507E1BB6D99600C42653 /* HMainViewController.swift in Sources */,
+				6338A9771BBBDFAB0013EED0 /* Pentagons.swift in Sources */,
+				63BDC47F1BE0D1F700D8F4BE /* HInfoViewController.swift in Sources */,
+				638F82C91BDF255C00CEDCF1 /* HGameCenterManager.swift in Sources */,
+				633254A51BBA6C69002ED5BC /* HCellView.swift in Sources */,
+				638F82CB1BDF47B500CEDCF1 /* HPlayer.swift in Sources */,
+				631DFB3E1BBCBABE00246F45 /* HBoardView.swift in Sources */,
+				6341507C1BB6D99600C42653 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634150881BB6D99700C42653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634150911BB6D99700C42653 /* Stellar_HedronTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634150931BB6D99700C42653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6341509C1BB6D99700C42653 /* Stellar_HedronUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6341508E1BB6D99700C42653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634150771BB6D99600C42653 /* Stellar Hedron */;
+			targetProxy = 6341508D1BB6D99700C42653 /* PBXContainerItemProxy */;
+		};
+		634150991BB6D99700C42653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634150771BB6D99600C42653 /* Stellar Hedron */;
+			targetProxy = 634150981BB6D99700C42653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6341507F1BB6D99700C42653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634150801BB6D99700C42653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634150841BB6D99700C42653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634150851BB6D99700C42653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6341509E1BB6D99700C42653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6341509F1BB6D99700C42653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634150A11BB6D99700C42653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stellar Hedron/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = your.bundle.identifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634150A21BB6D99700C42653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stellar Hedron/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = your.bundle.identifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		634150A41BB6D99700C42653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stellar HedronTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StellarSoftware.Stellar-HedronTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stellar Hedron.app/Stellar Hedron";
+			};
+			name = Debug;
+		};
+		634150A51BB6D99700C42653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stellar HedronTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StellarSoftware.Stellar-HedronTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stellar Hedron.app/Stellar Hedron";
+			};
+			name = Release;
+		};
+		634150A71BB6D99700C42653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stellar HedronUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StellarSoftware.Stellar-HedronUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stellar Hedron";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		634150A81BB6D99700C42653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stellar HedronUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StellarSoftware.Stellar-HedronUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stellar Hedron";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634150731BB6D99600C42653 /* Build configuration list for PBXProject "Stellar Hedron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6341509E1BB6D99700C42653 /* Debug */,
+				6341509F1BB6D99700C42653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634150A01BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar Hedron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634150A11BB6D99700C42653 /* Debug */,
+				634150A21BB6D99700C42653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634150A31BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar HedronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634150A41BB6D99700C42653 /* Debug */,
+				634150A51BB6D99700C42653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634150A61BB6D99700C42653 /* Build configuration list for PBXNativeTarget "Stellar HedronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634150A71BB6D99700C42653 /* Debug */,
+				634150A81BB6D99700C42653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634150701BB6D99600C42653 /* Project object */;
+}
